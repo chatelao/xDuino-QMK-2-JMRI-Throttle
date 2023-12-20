@@ -4,8 +4,9 @@
 <tbd>
 
 ## Sources
-1. https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md
-1. https://dcc-ex.com/DCCEXProtocol/index.html
+1. JMRI Key Functions: https://www.jmri.org/help/en/html/tools/throttle/AdvancedThrottleControl.shtml
+2. QMK Keycodes https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md
+3. DCC-EX commans: https://dcc-ex.com/DCCEXProtocol/index.html
 
 ### Commands
 
