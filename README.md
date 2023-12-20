@@ -13,7 +13,6 @@
 |---|---|
 | F10 to F19 (n) | Fn (if exist on keyboard), Shift + Numeric keypad (n-10) (Shift+2 for F12 for instance), Shift + F(n-10) (Shift+F3 for F13 for instance) |
 | F20 to F28 (n) | Fn (if exist on keyboard), Ctrl + Numeric keypad (n-20) (Ctrl+5 for F25 for instance), Ctrl + F(n-20) (Ctrl+F8 for F28 for instance) |
-
 | Next throttle window | Insert |
 | Previous throttle window | Delete |
 | Next throttle frame | End of line |
