@@ -21,7 +21,7 @@
 |`KC_F9`  | F9
 |`KC_F10` | F10
 |`KC_F11` | F11
-
+|`KC_F12` | F12
 |`KC_NO` ,`XXXXXXX` |Ignore this key (NOOP)
 |`KC_TRANSPARENT` ,`KC_TRNS`, `_______` |Use the next lowest non-transparent key
 |`KC_A` | `a` and `A`
@@ -78,7 +78,6 @@
 |`KC_DOT` | `.` and `>`
 |`KC_SLASH` ,`KC_SLSH` |`/` and `?`
 |`KC_CAPS_LOCK` ,`KC_CAPS` |Caps Lock
-|`KC_F12` | F12
 |`KC_PRINT_SCREEN` ,`KC_PSCR` |Print Screen
 |`KC_SCROLL_LOCK` ,`KC_SCRL`, `KC_BRMD` |Scroll Lock, Brightness Down (macOS)
 |`KC_PAUSE` ,`KC_PAUS`, `KC_BRK`, `KC_BRMU` |Pause, Brightness Up (macOS)
