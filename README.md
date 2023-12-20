@@ -38,7 +38,7 @@
 |`KC_KP_PLUS` | Numeric Keypad `+`
 |`KC_UP` | Arrow Up | Speed up by 5x
 |`KC_AUDIO_VOL_DOWN` | Volume Down | Speed down
-|`KC_KP_MINUS` ,`KC_PMNS` | Numeric Keypad `-`
+|`KC_KP_MINUS` | Numeric Keypad `-`
 |`KC_DOWN` | Arrow Down | Speed down by 5x
 |`KC_KP_ASTERISK` | Numeric Keypad `*` | Idle Speed | ```<t train_id 0 dir>```
 |`KC_SPACE` | Spacebar
