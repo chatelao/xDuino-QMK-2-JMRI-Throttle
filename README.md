@@ -49,11 +49,9 @@
 |`KC_RIGHT_SHIFT` and `KC_KP_x` | <Shift Right> + NumPad / Fx
 |`KC_LEFT_CTRL` and `KC_KP_x`   | <Ctrl Right> + NumPad / Fx
 |`KC_RIGHT_CTRL` and `KC_KP_x`  | <Ctrl Right> + NumPad / Fx
-
 |`KC_MEDIA_NEXT_TRACK` ,`KC_MNXT` |Next Track
 |`KC_MEDIA_PREV_TRACK` ,`KC_MPRV` |Previous Track
 |`KC_KP_ENTER` ,`KC_PENT` |Keypad Enter
-
 |`KC_TRANSPARENT` ,`KC_TRNS`, `_______` |Use the next lowest non-transparent key
 |`KC_A` | `a` and `A`
 |`KC_B` | `b` and `B`
