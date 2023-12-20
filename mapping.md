@@ -234,10 +234,6 @@ Shift + F(n-10) (Shift+F3 for F13 for instance)
 |`KC_ASSISTANT` ,`KC_ASST` |Launch Context-Aware Assistant
 |`KC_MISSION_CONTROL` ,`KC_MCTL` |Open Mission Control
 |`KC_LAUNCHPAD` ,`KC_LPAD` |Open Launchpad
-
-
-|Key |Aliases |Description |
-|-------------------------|---------|-------------------------------------------|
 |`QK_AUDIO_ON` |`AU_ON` |Turns on Audio Feature |
 |`QK_AUDIO_OFF` |`AU_OFF` |Turns off Audio Feature |
 |`QK_AUDIO_TOGGLE` |`AU_TOGG`|Toggles Audio state |
