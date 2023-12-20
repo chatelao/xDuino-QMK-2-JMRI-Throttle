@@ -237,18 +237,3 @@ Shift + F(n-10) (Shift+F3 for F13 for instance)
 |`KC_ASSISTANT` ,`KC_ASST` |Launch Context-Aware Assistant
 |`KC_MISSION_CONTROL` ,`KC_MCTL` |Open Mission Control
 |`KC_LAUNCHPAD` ,`KC_LPAD` |Open Launchpad
-|`QK_AUDIO_ON` |`AU_ON` |Turns on Audio Feature |
-|`QK_AUDIO_OFF` |`AU_OFF` |Turns off Audio Feature |
-|`QK_AUDIO_TOGGLE` |`AU_TOGG`|Toggles Audio state |
-|`QK_AUDIO_CLICKY_TOGGLE` |`CK_TOGG`|Toggles Audio clicky mode |
-|`QK_AUDIO_CLICKY_ON` |`CK_ON` |Turns on Audio clicky mode |
-|`QK_AUDIO_CLICKY_OFF` |`CK_OFF` |Turns on Audio clicky mode |
-|`QK_AUDIO_CLICKY_UP` |`CK_UP` |Increases frequency of the clicks |
-|`QK_AUDIO_CLICKY_DOWN` |`CK_DOWN`|Decreases frequency of the clicks |
-|`QK_AUDIO_CLICKY_RESET` |`CK_RST` |Resets frequency to default |
-|`QK_MUSIC_ON` |`MU_ON` |Turns on Music Mode |
-|`QK_MUSIC_OFF` |`MU_OFF` |Turns off Music Mode |
-|`QK_MUSIC_TOGGLE` |`MU_TOGG`|Toggles Music Mode |
-|`QK_MUSIC_MODE_NEXT` |`MU_NEXT`|Cycles through the music modes |
-|`QK_AUDIO_VOICE_NEXT` |`AU_NEXT`|Cycles through the audio voices |
-|`QK_AUDIO_VOICE_PREVIOUS`|`AU_PREV`|Cycles through the audio voices in reverse |
