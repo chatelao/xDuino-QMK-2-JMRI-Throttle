@@ -40,6 +40,8 @@
 - train_id = DCC Address of the decoder/loco
 - speed = ```0```-```127```
 - dir = ```1``` (forward) or ```0``` (reverse)
+- funct = ```0```-```68``` support for the [RCN-212](https://normen.railcommunity.de/RCN-212.pdf) functions
+- state = ``1``` (on) or ```0``` (off)
  
 |[Key](https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md) | Description | JMRI-Throttle | DCC-EX command |
 |---|---|---|---|
@@ -55,7 +57,7 @@
 |`KC_KP_SLASH` ,`KC_PSLS` |Keypad `/` | Emergency stop | ```<!>```
 |`KC_KP_ASTERISK` ,`KC_PAST` |Keypad `*`
 |`KC_KP_ENTER` ,`KC_PENT` |Keypad Enter
-|`KC_Fx`  | Fx    | Turn loco_id  functions ON or OFF| <F train_id funct state>
+|`KC_Fx`  | Fx    | Turn functions ON or OFF| <F train_id funct state>
 |`KC_F2`  | F2
 |`KC_F3`  | F3
 |`KC_F4`  | F4
