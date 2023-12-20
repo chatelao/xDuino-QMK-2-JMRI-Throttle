@@ -1,11 +1,11 @@
-# Key to JMRI-Throttle mapping
+# Key to DCC-EX-Throttle mapping
 
 ## Introducation
 <tbd>
 
 ## Sources
 1. https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md
-1. https://www.jmri.org/help/en/html/tools/throttle/AdvancedThrottleControl.shtml
+1. https://dcc-ex.com/DCCEXProtocol/index.html
 
 ### Commands
 
