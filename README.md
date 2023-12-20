@@ -38,16 +38,16 @@
 
 ### Commands
 
-|[Key](https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md) | Description | Throttle logic | JMRI command |
+|[Key](https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md) | Description | JMRI-Throttle | DCC-EX command |
 |---|---|---|---|
-|`KC_AUDIO_VOL_UP` ,`KC_VOLU`   | Volume Up   | Speed up   
+|`KC_AUDIO_VOL_UP` ,`KC_VOLU`   | Volume Up   | Speed up
 |`KC_AUDIO_VOL_DOWN` ,`KC_VOLD` | Volume Down | Speed down
 |`KC_UP` | Up Arrow
 |`KC_DOWN` | Down Arrow
 |`KC_MEDIA_NEXT_TRACK` ,`KC_MNXT` |Next Track
 |`KC_MEDIA_PREV_TRACK` ,`KC_MPRV` |Previous Track
 |`KC_NUM_LOCK` ,`KC_NUM` |Keypad Num Lock and Clear
-|`KC_KP_SLASH` ,`KC_PSLS` |Keypad `/`
+|`KC_KP_SLASH` ,`KC_PSLS` |Keypad `/` | Emergency stop | ```<!>```
 |`KC_KP_ASTERISK` ,`KC_PAST` |Keypad `*`
 |`KC_KP_MINUS` ,`KC_PMNS` |Keypad `-`
 |`KC_KP_PLUS` ,`KC_PPLS` |Keypad `+`
