@@ -11,12 +11,6 @@
 
 | Action | Keyboard Key |
 |---|---|
-| Increase Speed | Numeric keypad + |
-| Decrease Speed | Numeric keypad - |
-| Increase Speed by multiplicator (5 as a default) | Page up, Ctrl + Left arrow |
-| Decrease Speed by multiplicator (5 as a default) | Page down, Ctrl + Right arrow |
-| Idle Speed | Numeric keypad *, Space |
-| Stop Speed | Numeric keypad /, Escape |
 | Forward | Up arrow |
 | Reverse | Down arrow |
 | Switch direction | Not defined in defaults, but customizable in the `Throttles Preferences`. |
