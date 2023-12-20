@@ -34,21 +34,21 @@
  
 |[Key](https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md) | Description | JMRI-Throttle | DCC-EX command |
 |---|---|---|---|
-|`KC_AUDIO_VOL_UP` ,`KC_VOLU`   | Volume Up   | Speed up | ```<t train_id speed dir>```
-|`KC_KP_PLUS` ,`KC_PPLS` | Numeric Keypad `+`
+|`KC_AUDIO_VOL_UP`   | Volume Up   | Speed up | ```<t train_id speed dir>```
+|`KC_KP_PLUS` | Numeric Keypad `+`
 |`KC_UP` | Arrow Up | Speed up by 5x
-|`KC_AUDIO_VOL_DOWN` ,`KC_VOLD` | Volume Down | Speed down
+|`KC_AUDIO_VOL_DOWN` | Volume Down | Speed down
 |`KC_KP_MINUS` ,`KC_PMNS` | Numeric Keypad `-`
 |`KC_DOWN` | Arrow Down | Speed down by 5x
-|`KC_KP_ASTERISK` ,`KC_PAST` | Numeric Keypad `*` | Idle Speed | ```<t train_id 0 dir>```
-|`KC_SPACE` ,`KC_SPC` | Spacebar
-|`KC_KP_SLASH` ,`KC_PSLS` |Keypad `/` | Emergency stop | ```<!>```
+|`KC_KP_ASTERISK` | Numeric Keypad `*` | Idle Speed | ```<t train_id 0 dir>```
+|`KC_SPACE` | Spacebar
+|`KC_KP_SLASH` |Keypad `/` | Emergency stop | ```<!>```
 |`KC_Fx`  | Fx    | Turn Function x ON or OFF | <F train_id funct state>
-|`KC_KP_x` ,`KC_Px` |Keypad x
-|`KC_LEFT_SHIFT` / `KC_LSFT` and `KC_KP_x` / `KC_Px` | <Shift Left> + NumPad / Fx | Turn function x+10 ON or OFF
-|`KC_RIGHT_SHIFT` ,`KC_RSFT` and `KC_KP_x` / `KC_Px` | <Shift Right> + NumPad / Fx
-|`KC_LEFT_CTRL` ,`KC_LCTL` and `KC_KP_x` / `KC_Px` | <Ctrl Right> + NumPad / Fx
-|`KC_RIGHT_CTRL` ,`KC_RCTL` and `KC_KP_x` / `KC_Px` | <Ctrl Right> + NumPad / Fx
+|`KC_KP_x` |Keypad x
+|`KC_LEFT_SHIFT` and `KC_KP_x`  | <Shift Left> + NumPad / Fx | Turn function x+10 ON or OFF
+|`KC_RIGHT_SHIFT` and `KC_KP_x` | <Shift Right> + NumPad / Fx
+|`KC_LEFT_CTRL` and `KC_KP_x`   | <Ctrl Right> + NumPad / Fx
+|`KC_RIGHT_CTRL` and `KC_KP_x`  | <Ctrl Right> + NumPad / Fx
 
 |`KC_MEDIA_NEXT_TRACK` ,`KC_MNXT` |Next Track
 |`KC_MEDIA_PREV_TRACK` ,`KC_MPRV` |Previous Track
