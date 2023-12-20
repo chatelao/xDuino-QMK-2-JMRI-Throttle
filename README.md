@@ -38,6 +38,12 @@ Shift + F(n-10) (Shift+F3 for F13 for instance)
 |`KC_DOWN` | Down Arrow
 |`KC_MEDIA_NEXT_TRACK` ,`KC_MNXT` |Next Track
 |`KC_MEDIA_PREV_TRACK` ,`KC_MPRV` |Previous Track
+|`KC_NUM_LOCK` ,`KC_NUM` |Keypad Num Lock and Clear
+|`KC_KP_SLASH` ,`KC_PSLS` |Keypad `/`
+|`KC_KP_ASTERISK` ,`KC_PAST` |Keypad `*`
+|`KC_KP_MINUS` ,`KC_PMNS` |Keypad `-`
+|`KC_KP_PLUS` ,`KC_PPLS` |Keypad `+`
+|`KC_KP_ENTER` ,`KC_PENT` |Keypad Enter
 |`KC_F1`  | F1    |
 |`KC_F2`  | F2
 |`KC_F3`  | F3
