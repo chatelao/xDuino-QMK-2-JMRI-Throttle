@@ -57,7 +57,9 @@
 |`KC_KP_SLASH` ,`KC_PSLS` |Keypad `/` | Emergency stop | ```<!>```
 |`KC_KP_ASTERISK` ,`KC_PAST` |Keypad `*`
 |`KC_KP_ENTER` ,`KC_PENT` |Keypad Enter
-|`KC_Fx`  | Fx    | Turn functions ON or OFF| <F train_id funct state>
+|`KC_Fx`  | Fx    | Turn function x ON or OFF | <F train_id funct state>
+|`KC_KP_x` ,`KC_Px` |Keypad x
+
 |`KC_F2`  | F2
 |`KC_F3`  | F3
 |`KC_F4`  | F4
