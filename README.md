@@ -45,7 +45,7 @@
 |`KC_KP_SLASH` |Keypad `/` | Emergency stop | ```<!>```
 |`KC_Fx`  | Fx    | Turn Function x ON or OFF | <F train_id funct state>
 |`KC_KP_x` |Keypad x
-|`KC_LEFT_SHIFT` and `KC_KP_x`  | <Shift Left> + NumPad / Fx | Turn function x+10 ON or OFF
+|`KC_LEFT_SHIFT` and `KC_KP_x`  | <Shift Left> + NumPad / Fx | Turn function x+10 ON or OFF | ```<F train_id funct state>```
 |`KC_RIGHT_SHIFT` and `KC_KP_x` | <Shift Right> + NumPad / Fx
 |`KC_LEFT_CTRL` and `KC_KP_x`   | <Ctrl Right> + NumPad / Fx
 |`KC_RIGHT_CTRL` and `KC_KP_x`  | <Ctrl Right> + NumPad / Fx
