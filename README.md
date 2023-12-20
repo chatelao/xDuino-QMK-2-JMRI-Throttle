@@ -37,11 +37,16 @@
 | Focus address panel | A |
 
 ### Commands
-
+- train_id = DCC Address of the decoder/loco
+- speed = ```0```-```127```
+- dir = ```1``` (forward) or ```0``` (reverse)
+ 
 |[Key](https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md) | Description | JMRI-Throttle | DCC-EX command |
 |---|---|---|---|
-|`KC_AUDIO_VOL_UP` ,`KC_VOLU`   | Volume Up   | Speed up
+|`KC_AUDIO_VOL_UP` ,`KC_VOLU`   | Volume Up   | Speed up | ```<t train_id speed dir>```
+|`KC_KP_PLUS` ,`KC_PPLS` |Keypad `+`
 |`KC_AUDIO_VOL_DOWN` ,`KC_VOLD` | Volume Down | Speed down
+|`KC_KP_MINUS` ,`KC_PMNS` |Keypad `-`
 |`KC_UP` | Up Arrow
 |`KC_DOWN` | Down Arrow
 |`KC_MEDIA_NEXT_TRACK` ,`KC_MNXT` |Next Track
@@ -49,10 +54,8 @@
 |`KC_NUM_LOCK` ,`KC_NUM` |Keypad Num Lock and Clear
 |`KC_KP_SLASH` ,`KC_PSLS` |Keypad `/` | Emergency stop | ```<!>```
 |`KC_KP_ASTERISK` ,`KC_PAST` |Keypad `*`
-|`KC_KP_MINUS` ,`KC_PMNS` |Keypad `-`
-|`KC_KP_PLUS` ,`KC_PPLS` |Keypad `+`
 |`KC_KP_ENTER` ,`KC_PENT` |Keypad Enter
-|`KC_F1`  | F1    |
+|`KC_Fx`  | Fx    | Turn loco_id  functions ON or OFF| <F train_id funct state>
 |`KC_F2`  | F2
 |`KC_F3`  | F3
 |`KC_F4`  | F4
