@@ -8,6 +8,35 @@
 2. QMK Keycodes 
 3. DCC-EX commans: https://dcc-ex.com/DCCEXProtocol/index.html
 
+### JMRI Commands
+
+| Action | Keyboard Key |
+|---|---|
+| Increase Speed | Numeric keypad + |
+| Decrease Speed | Numeric keypad - |
+| Increase Speed by multiplicator (5 as a default) | Page up, Ctrl + Left arrow |
+| Decrease Speed by multiplicator (5 as a default) | Page down, Ctrl + Right arrow |
+| Idle Speed | Numeric keypad *, Space |
+| Stop Speed | Numeric keypad /, Escape |
+| Forward | Up arrow |
+| Reverse | Down arrow |
+| Switch direction | Not defined in defaults, but customizable in the `Throttles Preferences`. |
+| F0 | Numeric keypad 0 |
+| F1 to F9 (n) | Fn, Numeric keypad n |
+| F10 to F19 (n) | Fn (if exist on keyboard), Shift + Numeric keypad (n-10) (Shift+2 for F12 for instance), Shift + F(n-10) (Shift+F3 for F13 for instance) |
+| F20 to F28 (n) | Fn (if exist on keyboard), Ctrl + Numeric keypad (n-20) (Ctrl+5 for F25 for instance), Ctrl + F(n-20) (Ctrl+F8 for F28 for instance) |
+| Next throttle window | Insert |
+| Previous throttle window | Delete |
+| Next throttle frame | End of line |
+| Previous throttle frame | Start of line |
+| Next running throttle frame | Ctrl + End of line |
+| Previous running throttle frame | Ctrl + Start of line |
+| Focus next throttle internal window | K, Tab |
+| Focus previous throttle internal window | L, Shift+Tab |
+| Focus control panel | C |
+| Focus function panel | F |
+| Focus address panel | A |
+
 ### Commands
 
 |[Key](https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md) | Description | Throttle logic | JMRI command |
