@@ -5,9 +5,8 @@
 
 ## Sources
 1. JMRI Key Functions: https://www.jmri.org/help/en/html/tools/throttle/AdvancedThrottleControl.shtml
-2. QMK Keycodes 
-3. DCC-EX commans: https://dcc-ex.com/DCCEXProtocol/index.html
-
+3. DCC-EX commans: https://dcc-ex.com/throttles/tech-reference.html#gsc.tab=0 / https://dcc-ex.com/DCCEXProtocol/index.html
+ / https://dcc-ex.com/DCCEXProtocol/index.html
 ### JMRI Commands
 
 | Action | Keyboard Key |
