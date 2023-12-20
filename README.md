@@ -11,13 +11,9 @@
 
 | Action | Keyboard Key |
 |---|---|
-| Forward | Up arrow |
-| Reverse | Down arrow |
-| Switch direction | Not defined in defaults, but customizable in the `Throttles Preferences`. |
-| F0 | Numeric keypad 0 |
-| F1 to F9 (n) | Fn, Numeric keypad n |
 | F10 to F19 (n) | Fn (if exist on keyboard), Shift + Numeric keypad (n-10) (Shift+2 for F12 for instance), Shift + F(n-10) (Shift+F3 for F13 for instance) |
 | F20 to F28 (n) | Fn (if exist on keyboard), Ctrl + Numeric keypad (n-20) (Ctrl+5 for F25 for instance), Ctrl + F(n-20) (Ctrl+F8 for F28 for instance) |
+
 | Next throttle window | Insert |
 | Previous throttle window | Delete |
 | Next throttle frame | End of line |
@@ -40,18 +36,20 @@
 |[Key](https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md) | Description | JMRI-Throttle | DCC-EX command |
 |---|---|---|---|
 |`KC_AUDIO_VOL_UP` ,`KC_VOLU`   | Volume Up   | Speed up | ```<t train_id speed dir>```
-|`KC_KP_PLUS` ,`KC_PPLS` |Keypad `+`
-|`KC_UP` | Up Arrow | Speed up by 5x
+|`KC_KP_PLUS` ,`KC_PPLS` | Numeric Keypad `+`
+|`KC_UP` | Arrow Up | Speed up by 5x
 |`KC_AUDIO_VOL_DOWN` ,`KC_VOLD` | Volume Down | Speed down
-|`KC_KP_MINUS` ,`KC_PMNS` |Keypad `-`
-|`KC_DOWN` |Down Arrow | Speed down by 5x
-|`KC_KP_ASTERISK` ,`KC_PAST` |Keypad `*` | Idle Speed
-|`KC_NUM_LOCK` ,`KC_NUM` |Keypad Num Lock and Clear
+|`KC_KP_MINUS` ,`KC_PMNS` | Numeric Keypad `-`
+|`KC_DOWN` | Arrow Down | Speed down by 5x
+|`KC_KP_ASTERISK` ,`KC_PAST` | Numeric Keypad `*` | Idle Speed | ```<t train_id 0 dir>```
+|`KC_SPACE` ,`KC_SPC` | Spacebar
 |`KC_KP_SLASH` ,`KC_PSLS` |Keypad `/` | Emergency stop | ```<!>```
 |`KC_Fx`  | Fx    | Turn Function x ON or OFF | <F train_id funct state>
 |`KC_KP_x` ,`KC_Px` |Keypad x
-|`KC_LEFT_SHIFT` / `KC_LSFT` and `KC_KP_x` / `KC_Px` | Turn function x+10 ON or OFF
-|`KC_RIGHT_SHIFT` ,`KC_RSFT` and `KC_KP_x` / `KC_Px`
+|`KC_LEFT_SHIFT` / `KC_LSFT` and `KC_KP_x` / `KC_Px` | <Shift Left> + NumPad / Fx | Turn function x+10 ON or OFF
+|`KC_RIGHT_SHIFT` ,`KC_RSFT` and `KC_KP_x` / `KC_Px` | <Shift Right> + NumPad / Fx
+|`KC_LEFT_CTRL` ,`KC_LCTL` and `KC_KP_x` / `KC_Px` | <Ctrl Right> + NumPad / Fx
+|`KC_RIGHT_CTRL` ,`KC_RCTL` and `KC_KP_x` / `KC_Px` | <Ctrl Right> + NumPad / Fx
 
 |`KC_MEDIA_NEXT_TRACK` ,`KC_MNXT` |Next Track
 |`KC_MEDIA_PREV_TRACK` ,`KC_MPRV` |Previous Track
