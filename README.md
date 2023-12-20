@@ -5,12 +5,12 @@
 
 ## Sources
 1. JMRI Key Functions: https://www.jmri.org/help/en/html/tools/throttle/AdvancedThrottleControl.shtml
-2. QMK Keycodes https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md
+2. QMK Keycodes 
 3. DCC-EX commans: https://dcc-ex.com/DCCEXProtocol/index.html
 
 ### Commands
 
-|Key | Description | Throttle logic | JMRI command |
+|[Key](https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md) | Description | Throttle logic | JMRI command |
 |---|---|---|---|
 |`KC_AUDIO_VOL_UP` ,`KC_VOLU`   | Volume Up   | Speed up   
 |`KC_AUDIO_VOL_DOWN` ,`KC_VOLD` | Volume Down | Speed down
