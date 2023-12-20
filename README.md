@@ -47,31 +47,22 @@
 |---|---|---|---|
 |`KC_AUDIO_VOL_UP` ,`KC_VOLU`   | Volume Up   | Speed up | ```<t train_id speed dir>```
 |`KC_KP_PLUS` ,`KC_PPLS` |Keypad `+`
+|`KC_UP` | Up Arrow | Speed up by 5x
 |`KC_AUDIO_VOL_DOWN` ,`KC_VOLD` | Volume Down | Speed down
 |`KC_KP_MINUS` ,`KC_PMNS` |Keypad `-`
-|`KC_UP` | Up Arrow
-|`KC_DOWN` | Down Arrow
-|`KC_MEDIA_NEXT_TRACK` ,`KC_MNXT` |Next Track
-|`KC_MEDIA_PREV_TRACK` ,`KC_MPRV` |Previous Track
+|`KC_DOWN` |Down Arrow | Speed down by 5x
+|`KC_KP_ASTERISK` ,`KC_PAST` |Keypad `*` | Idle Speed
 |`KC_NUM_LOCK` ,`KC_NUM` |Keypad Num Lock and Clear
 |`KC_KP_SLASH` ,`KC_PSLS` |Keypad `/` | Emergency stop | ```<!>```
-|`KC_KP_ASTERISK` ,`KC_PAST` |Keypad `*`
-|`KC_KP_ENTER` ,`KC_PENT` |Keypad Enter
-|`KC_Fx`  | Fx    | Turn function x ON or OFF | <F train_id funct state>
+|`KC_Fx`  | Fx    | Turn Function x ON or OFF | <F train_id funct state>
 |`KC_KP_x` ,`KC_Px` |Keypad x
+|`KC_LEFT_SHIFT` / `KC_LSFT` and `KC_KP_x` / `KC_Px` | Turn function x+10 ON or OFF
+|`KC_RIGHT_SHIFT` ,`KC_RSFT` and `KC_KP_x` / `KC_Px`
 
-|`KC_F2`  | F2
-|`KC_F3`  | F3
-|`KC_F4`  | F4
-|`KC_F5`  | F5
-|`KC_F6`  | F6
-|`KC_F7`  | F7
-|`KC_F8`  | F8
-|`KC_F9`  | F9
-|`KC_F10` | F10
-|`KC_F11` | F11
-|`KC_F12` | F12
-|`KC_NO` ,`XXXXXXX` |Ignore this key (NOOP)
+|`KC_MEDIA_NEXT_TRACK` ,`KC_MNXT` |Next Track
+|`KC_MEDIA_PREV_TRACK` ,`KC_MPRV` |Previous Track
+|`KC_KP_ENTER` ,`KC_PENT` |Keypad Enter
+
 |`KC_TRANSPARENT` ,`KC_TRNS`, `_______` |Use the next lowest non-transparent key
 |`KC_A` | `a` and `A`
 |`KC_B` | `b` and `B`
@@ -221,11 +212,9 @@
 |`KC_CRSEL` ,`KC_CRSL` |CrSel/Props
 |`KC_EXSEL` ,`KC_EXSL` |ExSel
 |`KC_LEFT_CTRL` ,`KC_LCTL` |Left Control
-|`KC_LEFT_SHIFT` ,`KC_LSFT` |Left Shift
 |`KC_LEFT_ALT` ,`KC_LALT`, `KC_LOPT` |Left Alt (Option)
 |`KC_LEFT_GUI` ,`KC_LGUI`, `KC_LCMD`, `KC_LWIN`|Left GUI (Windows/Command/Meta key)
 |`KC_RIGHT_CTRL` ,`KC_RCTL` |Right Control
-|`KC_RIGHT_SHIFT` ,`KC_RSFT` |Right Shift
 |`KC_RIGHT_ALT` ,`KC_RALT`, `KC_ROPT`, `KC_ALGR`|Right Alt (Option/AltGr)
 |`KC_RIGHT_GUI` ,`KC_RGUI`, `KC_RCMD`, `KC_RWIN`|Right GUI (Windows/Command/Meta key)
 |`KC_SYSTEM_POWER` ,`KC_PWR` |System Power Down
