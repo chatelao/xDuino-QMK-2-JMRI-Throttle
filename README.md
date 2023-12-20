@@ -9,27 +9,6 @@
 
 ### Commands
 
-#### Idle Speed
-Numeric keypad *
-Space
-
-#### Stop Speed
-Numeric keypad /
-Escape
-
-#### Increase Speed x5
-Page up
-Ctrl + Left arrow
-
-#### Decrease Speed x5
-Page down
-Ctrl + Right arrow
-
-### F10 → F19 (n)
-Fn (if exist on keyboard)
-Shift + Numeric keypad (n-10) (Shift+2 for F12 for instance)
-Shift + F(n-10) (Shift+F3 for F13 for instance)
-
 |Key | Description | Throttle logic | JMRI command |
 |---|---|---|---|
 |`KC_AUDIO_VOL_UP` ,`KC_VOLU`   | Volume Up   | Speed up   
